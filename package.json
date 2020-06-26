@@ -1,0 +1,23 @@
+{
+  "name": "advent-of-code-2019",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/karranb/advent-of-code-2019.git",
+  "author": "Karran Besen <karranrb@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "day1": "babel-node day_01/js/index.js",
+    "day2": "babel-node day_02/js/index.js",
+    "day3": "babel-node day_03/js/index.js",
+    "day4": "babel-node day_04/js/index.js"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.5",
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "prettier": "^1.19.1",
+    "ramda": "^0.26.1"
+  }
+}
